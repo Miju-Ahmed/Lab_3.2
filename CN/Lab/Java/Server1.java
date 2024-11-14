@@ -1,3 +1,5 @@
+//For two way communication.
+
 import java.io.DataInputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -18,7 +20,7 @@ public class Server1 {
 
         do{
             msg = dis.readUTF();
-            System.out.println( msg);
+            System.out.println(msg);
             if(msg.equalsIgnoreCase("hi")){
                 System.out.println("Hello\n");
             }else if(msg.equalsIgnoreCase("time")){

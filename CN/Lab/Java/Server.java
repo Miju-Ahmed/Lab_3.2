@@ -1,3 +1,5 @@
+// given by sir--only for single msg passing.
+
 import java.io.DataInputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -11,11 +13,6 @@ Socket s1=ss.accept();
 DataInputStream ds1=new DataInputStream(s1.getInputStream());
 String msg= (String) ds1.readUTF();
 System.out.println("Message---- " + msg);
-ss.close();
-
-
-    
+ss.close(); 
 }
-
-
 }
