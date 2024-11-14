@@ -1,0 +1,5 @@
+1. Investigate what would happen if you try to read a named pipe multiple times consequtively.
+2. Implement a unnamed pipe to send a specific message ( say "Do not wait for me") from a child process to parent process to inform it so that it would  not to wait for termination of child process.
+3. Investigate if two seperate process try to read a single named pipe at first and then write to the pipe.
+4. Investigate race condition occures in a multi-threading environment.
+5. Find a solution to avoid race condition.

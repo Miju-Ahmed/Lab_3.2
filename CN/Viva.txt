@@ -1,0 +1,5 @@
+Find out Server port number and client port number.
+TCP--Connection oriented
+UDP-- Connectionless
+when the udp is better than tcp?
+or when the connectionless is better than connection oriendted network ?

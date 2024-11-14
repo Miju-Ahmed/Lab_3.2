@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/boost/predef/os",
+                "/usr/include/llvm-16",
+                "/usr/include/linux",
+                "${workspaceFolder}/linux-6.7.4/tools/include/nolibc",
+                "${workspaceFolder}/linux-6.7.4/arch/mips/include/uapi",
+                "/usr/include/x86_64-linux-gnu/c++/14/bits"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

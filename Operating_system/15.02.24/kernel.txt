@@ -1,0 +1,25 @@
+1) What is Kernel?
+A computer needs both software and hardware to do anything. There has to be a layer of software that operates the hardware at a low level. This is the kernel.
+		Software
+		   |
+		 Kernel
+		   |
+		 Hardware
+
+
+
+2) How does a Kernel work?
+The kernel responds to system calls. These are called by different parts of operating system to get the actual physical hardware to do things. For example, whenever you compile and run C code, your C library uses system calls.
+
+3) What is a Linux Kernel?
+"Linux" is a kernel created in 1991 by Linus Torvalds. It's been in constant development since then and is now at version 6.6.9. It's used in desktops, laptops, smartphones, servers and many more devices.
+
+4) What makes Linux special?
+It's open source, anyone can see the code, download the code and compile the code. It's free software anyone can share the code and the finished kernel, and do anything they want with it. It's fast. Linux is constently more efficient and faster than most other kernels in mainstream operating systems. Because it's free and open source, Linux has become the de-facto standard for any specialized OS that requires efficiency. This is all because anyone can download the source code and compile Linux the way they want it. Meaning any unnecessary features can be removed, making the system more efficient.
+
+5) How does Linux work?
+Just as any other kernel, Linux accepts system calls to perform functions. Linux also utilizes "kernel modules" to handle which parts of the kernel to activate or deactivate. These can be either disabled, enabled or rendered toggle-able to compile time.An example of the Linux kernel module is "pcspkr". This can be enabled or disabled with the "modprobe" command. If disabled, your PC speaker will no longer make annoying bleeping noises!
+for disable this pcspkr---sudo modprobe -r pcspkr
+
+6) Negatives of Linux
+Linux is very monolithic. Even more than Windows NT and MacOS' Darwin kernel. This means that a lot more is built into the Linux kernel than is on other kernels. This includes GPU drivers and drivers for peripherals like pen tablets. Linux is developed very rapidly. This means that if you choose to always use the latest kernel, you may encounter stability or security issues. However, most practical uses for Linux don't use the very latest unstable Linux kernel.

@@ -1,0 +1,6 @@
+x(t) = 5sin(2*pi * 500t + 90)
+1. sampling
+2. show
+3. shift time
+4. time reversed
+5. up/down sampling

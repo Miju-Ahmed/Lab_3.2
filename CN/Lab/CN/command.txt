@@ -1,0 +1,15 @@
+In swithch:
+enable
+configure terminal
+hostname cse
+switchport mode access
+switchport access vlan 10
+exit
+interface fastEthernet 0/2
+switchport mode accesss
+switchport mode access vlan 20
+exit
+For save:
+do write memory
+exit
+

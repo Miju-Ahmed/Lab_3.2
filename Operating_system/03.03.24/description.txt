@@ -1,0 +1,18 @@
+Multi-Threading
+============================
+Multiple threads to resolve race condition we have used lock and unlock. The lock unlock area is called critical area
+For lock unlock we have used mutex and semaphore(it also can use multiple process)
+Task: Lock unlock using semaphore;
+
+pthread_mutex key
+pthread_mutex_lock
+pthread_mutex_unlock
+
+semaphore_t sem_key;
+sem_init(&sem_key, 0,1)
+sem_wait(&sem_key) it works like as pthread_mutex_lock
+sem_post(&sem_key) it works like as pthread_mutex_unlock
+
+Multi-Process 
+
+

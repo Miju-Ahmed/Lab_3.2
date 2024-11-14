@@ -1,0 +1,22 @@
+1. File Management(ls -l)
+2. Memory Management
+3. We have to check the file system.
+4. Last two chapter of this book I have to read.
+
+*Link
+* File type (ls -l)
+* I Note(ls -i)
+* killing the process
+->kill(pid,signalNo) ---For giving the signal
+-> kill -9 <pid>
+        here the -9 is the signal number
+->To see the signal number
+ kill -l
+
+
+6. System Called handler
+5. Signal handler
+7. SIGTERM 
+8. SIGSTOP
+
+9. communicate with each other by signal handler.

@@ -1,0 +1,2 @@
+For checking by which number we exit this comman is 
+-> echo $?

@@ -1,0 +1,20 @@
+import cmath  # for complex numbers
+
+def DFT(x):
+    N = len(x)
+    X = []  # List to hold the DFT result
+    for k in range(N):
+        sum_value = 0
+        for n in range(N):
+            angle = -2j * cmath.pi * k * n / N
+            sum_value += x[n] * cmath.exp(angle)
+        X.append(sum_value)
+    return X
+
+# Example usage
+x = [1, 2, 3, 4]  # Example input sequence
+X = DFT(x)
+
+# Display results
+print("Input sequence:", x)
+print("DFT:", X)
