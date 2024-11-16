@@ -7,7 +7,7 @@
 #include<fcntl.h>
 
 int main(){
-    char *pp = "miju1";
+    char pp[] = "miju1";
     if(access(pp,F_OK)==0){
         printf("Pipe is already exists.\n");
     }
@@ -25,7 +25,7 @@ int main(){
     while(true){
         if(send){
             char b[1024];
-            int n = read(STDIN_FILENO, b, 1024);
+            int n = read(STDIN_FILENO, b, 1023);
             b[n] = '\0';
             write(fd,b,strlen(b));
             if(b[0]=='b'&&b[1]=='y'&&b[2]=='e')
@@ -33,7 +33,7 @@ int main(){
         }
         else{
             char b[1024];
-            int  n = read(fd,b,1000);
+            int  n = read(fd,b,1023);
             b[n] = '\0';
             write(STDOUT_FILENO,b,strlen(b));
             if(b[0]=='b'&&b[1]=='y'&&b[2]=='e'){
