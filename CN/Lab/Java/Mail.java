@@ -1,3 +1,5 @@
+//Here we should make sure our gmail is less secured. 
+//mygoogleaccout->security->less security->on
 import java.io.*;
 import javax.net.ssl.*;
 import java.util.*;
